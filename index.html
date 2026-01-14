@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>美好烘焙手作坊 - 教學首頁</title>
+    <title>屏東長治可可農場 - 自家種植與手作巧克力</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;700&display=swap');
@@ -14,46 +14,57 @@
 
     <nav class="bg-white shadow-md p-4 sticky top-0 z-50">
         <div class="container mx-auto flex justify-between items-center">
-            <h1 class="text-2xl font-bold text-orange-600">甜點時光 Baking Studio</h1>
+            <h1 class="text-2xl font-bold text-orange-600">屏東長治可可農場</h1>
             <ul class="flex space-x-6 text-gray-600 font-medium">
                 <li><a href="#" class="hover:text-orange-500">首頁</a></li>
-                <li><a href="#recipes" class="hover:text-orange-500">烘焙食譜</a></li>
+                <li><a href="#products" class="hover:text-orange-500">農場產品</a></li>
             </ul>
         </div>
     </nav>
 
-    <header class="bg-orange-100 py-16 px-4 text-center">
-        <h2 class="text-4xl md:text-5xl font-bold mb-4 text-orange-800">從零開始的烘焙奇幻之旅</h2>
-        <p class="text-lg text-gray-600 max-w-2xl mx-auto">在這裡，我們用溫度與愛心，將平凡的面粉變成溫暖人心的美味甜點。</p>
-        <a href="#recipes" class="inline-block mt-8 bg-orange-600 text-white px-8 py-3 rounded-full hover:bg-orange-700 transition shadow-lg">探索食譜</a>
+    <header class="bg-stone-100 py-16 px-4 text-center">
+        <h2 class="text-4xl md:text-5xl font-bold mb-4 text-orange-900">來自屏東長治的純粹風味</h2>
+        <p class="text-lg text-gray-700 max-w-2xl mx-auto italic">
+            自家種植一甲多可可樹，從可可豆到成品的堅持，帶給你最真實的黑巧克力體驗。
+        </p>
+        <a href="#products" class="inline-block mt-8 bg-orange-700 text-white px-8 py-3 rounded-full hover:bg-orange-800 transition shadow-lg">認識我們的產品</a>
     </header>
 
-    <section id="recipes" class="container mx-auto py-16 px-4">
-        <h3 class="text-3xl font-bold text-center mb-12 text-gray-700">熱門教學課程</h3>
+    <section id="products" class="container mx-auto py-16 px-4">
+        <h3 class="text-3xl font-bold text-center mb-12 text-gray-700">農場精選產品</h3>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-            <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-orange-100">
-                <div class="p-6">
-                    <h4 class="text-xl font-bold text-orange-700">法式香檸塔</h4>
-                    <p class="text-gray-500 mt-2">酸甜滋味的完美平衡，職人等級的塔皮秘訣。</p>
-                </div>
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-orange-100 p-6">
+                <span class="text-orange-500 font-bold uppercase tracking-wider text-sm">農場手作</span>
+                <h4 class="text-2xl font-bold text-orange-900 mt-2">100% 自製純巧克力</h4>
+                <p class="text-gray-600 mt-4 leading-relaxed">
+                    低溫烘焙保留天然油脂與特有果酸，不含化學添加物，品嚐可可最深層的苦甜韻味。
+                </p>
             </div>
-            <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-orange-100">
-                <div class="p-6">
-                    <h4 class="text-xl font-bold text-orange-700">自製純巧克力</h4>
-                    <p class="text-gray-500 mt-2">從可可豆到成品的深度教學，品味最純粹的苦甜風味。</p>
-                </div>
+            <div class="bg-white rounded-xl shadow-lg overflow-hidden border border-orange-100 p-6">
+                <span class="text-green-600 font-bold uppercase tracking-wider text-sm">屏東直送</span>
+                <h4 class="text-2xl font-bold text-green-900 mt-2">時令水果：紅龍果與黃金果</h4>
+                <p class="text-gray-600 mt-4 leading-relaxed">
+                    屏東長治鮮採紅龍果、黃金果與紅心芭樂，果肉細緻清甜，每一口都是產地直送的新鮮。
+                </p>
             </div>
         </div>
     </section>
 
-    <footer class="bg-gray-800 text-white py-8 text-center">
-        <p>© 2026 甜點時光 Baking Studio</p>
+    <section class="bg-orange-100 py-12 text-center px-4">
+        <h3 class="text-2xl font-bold mb-4 text-gray-800">關於農場主人</h3>
+        <p class="text-gray-600 max-w-xl mx-auto">
+            我是 May，一位退休行政管理師，現於屏東長治致力於可可種植與推廣。
+        </p>
+    </section>
+
+    <footer class="bg-stone-800 text-white py-8 text-center">
+        <p>© 2026 屏東長治可可農場. 讓世界看見屏東的好味道</p>
     </footer>
 
     <div class="fixed bottom-4 right-4">
         <a href="https://github.com/ilove04062025-tech/ilove04062025-tech.github.io/edit/main/index.html" 
            target="_blank"
-           class="bg-gray-900/50 text-white px-3 py-1 rounded-md text-xs hover:bg-gray-900 transition flex items-center gap-1">
+           class="bg-black/50 text-white px-3 py-1 rounded-md text-xs hover:bg-black transition flex items-center gap-1">
            <span>⚙️ 管理後台</span>
         </a>
     </div>
